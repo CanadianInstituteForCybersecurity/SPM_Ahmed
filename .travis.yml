@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.8"  # Specify the Python version you want to use
+
+# Command to install dependencies
+install:
+  - pip install -r requirements.txt  # Assuming you have a requirements.txt file
+
+# Command to run tests
+script:
+  - python calculator.py  # This will run the script
